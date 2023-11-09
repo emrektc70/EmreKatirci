@@ -45,8 +45,8 @@ const AchievementsSection = () => {
                                 <AnimatedNumbers
                                     includeComma
                                     animateToNumber={parseFloat(achievement.value.replace(/,/g, ''))}
-                                    locale="en-US"
-                                    className="text-white text-4xl font-bold"
+                                    locale="fr-FR"
+                                    //  className="text-white text-4xl font-bold"
                                     configs={(_: any, index: number) => {
                                         return {
                                             mass: 1,
