@@ -48,7 +48,8 @@ const EmailSection = () => {
                 </h5>
                 <p className="text-[#ADB7BE] mb-4 max-w-md">
                     {" "}
-                    {`Si vous souhaitez me contacter, n'hésitez pas à utiliser le formulaire dédié. Je serais ravi de vous écouter et de répondre à vos messages. N'hésitez pas, je suis là pour vous`}                </p>
+                    {`Si vous souhaitez me contacter, n'hésitez pas à utiliser le formulaire dédié. Je serais ravi de vous écouter et de répondre à vos messages.`}
+                </p>
                 <div className="socials flex flex-row gap-2">
                     <Link href="https://github.com/emrektc70/">
                         <Image src={github} alt="Github Icon" />
