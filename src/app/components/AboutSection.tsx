@@ -17,7 +17,6 @@ const TAB_DATA = [
                 <li>javascript</li>
                 <li>wordpress</li>
                 <li>Cypress</li>
-
             </ul>
         )
     },
@@ -56,8 +55,6 @@ const TAB_DATA = [
         )
     },
 ]
-
-
 
 function AboutSection() {
 

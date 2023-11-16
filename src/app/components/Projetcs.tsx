@@ -42,7 +42,7 @@ const projectData = [
         description: "Le backend de KTCCar a été réalisé avec Nest.js, un framework basé sur Node.js.",
         image: '/assets/info.jpg',
         tags: ["All"],
-        urlProjet: "https://github.com/emrektc70/ktccar_api",
+        urlProjet: "",
         previewUrl: ""
 
     },

@@ -18,7 +18,6 @@ declare global {
 }
 export default function Home() {
   useEffect(() => {
-    // Ajoutez le code de suivi Google Analytics
     const script = document.createElement('script');
     script.src = 'https://www.googletagmanager.com/gtag/js?id=G-Q47Q5BYV7H';
     script.async = true;
@@ -36,7 +35,6 @@ export default function Home() {
     document.head.appendChild(script);
 
     return () => {
-      // Nettoyage si nécessaire
     };
   }, []);
 
