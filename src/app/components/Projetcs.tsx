@@ -6,7 +6,7 @@ import { ProjectTag } from "./ProjectTag";
 import projectData from "./projetData.json";
 
 export const Projetcs = () => {
-  const [tag, setTag] = useState("All");
+  const [tag, setTag] = useState("Tout");
 
   const filteredProjects = projectData.filter((projet) =>
     projet.tags.includes(tag)
@@ -35,9 +35,9 @@ export const Projetcs = () => {
 
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
-          name={"All"}
+          name={"Tout"}
           onClick={handleTagChange}
-          isSelected={tag === "All"}
+          isSelected={tag === "Tout"}
         />
         <ProjectTag
           name={"Web"}

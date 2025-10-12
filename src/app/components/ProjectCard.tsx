@@ -23,6 +23,7 @@ export const ProjetcsCard = ({
       <div className="relative h-52 md:h-72 group">
         <Image
           src={image}
+          quality={100}
           alt={title}
           fill
           className="object-cover rounded-t-xl"
@@ -50,7 +51,7 @@ export const ProjetcsCard = ({
         </div>
       </div>
 
-      <div className="text-white rounded-b-xl mt-3 bg-[#181818] py-6 px-4 h-60 flex flex-col justify-between">
+      <div className="text-white rounded-b-xl mt-3 bg-[#181818] py-6 px-4 h-72 md:h-60 flex flex-col justify-between">
         <div className="flex flex-1 w-full justify-between items-center">
           <h5 className="text-xl font-semibold mb-2">{title}</h5>
           <h5 className="text-lg font-semibold mb-2">{date}</h5>
