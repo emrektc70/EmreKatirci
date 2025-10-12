@@ -16,7 +16,7 @@
     "image": "/assets/orgavita.png",
     "tags": ["Tout", "Web"],
     "urlProjet": "",
-    "previewUrl": "https://praticien.orgavita.fr/register",
+    "previewUrl": "",
     "date": "2023"
   },
   {
@@ -26,7 +26,7 @@
     "image": "/assets/toshoBox.png",
     "tags": ["Tout", "Web"],
     "urlProjet": "",
-    "previewUrl": "https://box.tosho.fr/",
+    "previewUrl": "",
     "date": "2023"
   },
   {
@@ -56,7 +56,7 @@
     "image": "/assets/tom-mobile.png",
     "tags": ["Tout", "Mobile"],
     "urlProjet": "",
-    "previewUrl": "https://apps.apple.com/mu/app/tom/id1626télé981821",
+    "previewUrl": "https://www.studiosystems.fr/tom",
     "date": "2025"
   },
   {
@@ -85,7 +85,7 @@
     "description": "IDevis est une application que j'ai développée en React Native et TypeScript avec Expo. C'est un projet entièrement personnel qui permet de s'authentifier, de créer des devis et de les générer en PDF.",
     "image": "/assets/idevis.png",
     "tags": ["Tout", "Mobile"],
-    "urlProjet": "https://github.com/emrektc70/idevis-app",
+    "urlProjet": "",
     "previewUrl": "",
     "date": "2024"
   },
@@ -95,7 +95,7 @@
     "description": "IDevis Back est le backend que j'ai développé pour l'application IDevis en utilisant NestJS et TypeScript. Ce projet entièrement personnel gère l'authentification des utilisateurs, la création et la gestion des devis.",
     "image": "/assets/idevis.png",
     "tags": ["Tout"],
-    "urlProjet": "https://github.com/emrektc70/idevis-back",
+    "urlProjet": "",
     "previewUrl": "",
     "date": "2024"
   },

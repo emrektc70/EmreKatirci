@@ -33,12 +33,12 @@ export default function HeroSection() {
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6">
             Bienvenue dans mon portfolio ! Je suis Emre Katirci, développeur
-            passionné spécialisé dans le Front-end et le développement mobile.
-            Fort de plus de 5 ans d’expérience en développement Front-end et 2
-            ans dans le mobile, j’aime créer des interfaces modernes,
+            passionné spécialisé dans le front-end et le développement mobile.
+            Fort de plus de 5 ans d’expérience en développement front-end et de
+            2 ans dans le mobile, j’aime créer des interfaces modernes,
             performantes et centrées sur l’utilisateur. Toujours curieux et en
             veille sur les nouvelles technologies, je m’efforce d’apporter des
-            solutions créatives et efficaces à chaque projet.{" "}
+            solutions créatives et efficaces à chaque projet.
           </p>
           <div>
             <Link
