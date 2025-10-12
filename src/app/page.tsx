@@ -1,14 +1,12 @@
-'use client'
+"use client";
 import AboutSection from "./components/AboutSection";
-import AchievementsSection from "./components/ArchivementSection";
+import { Analytics } from "@vercel/analytics/react";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import { Projetcs } from "./components/Projetcs";
-import { useEffect } from 'react';
-
-
+import { useEffect } from "react";
 
 declare global {
   interface Window {
@@ -18,8 +16,8 @@ declare global {
 }
 export default function Home() {
   useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-Q47Q5BYV7H';
+    const script = document.createElement("script");
+    script.src = "https://www.googletagmanager.com/gtag/js?id=G-Q47Q5BYV7H";
     script.async = true;
 
     script.onload = () => {
@@ -28,14 +26,13 @@ export default function Home() {
         window.dataLayer.push(arguments);
       };
 
-      window.gtag('js', new Date());
-      window.gtag('config', 'G-Q47Q5BYV7H');
+      window.gtag("js", new Date());
+      window.gtag("config", "G-Q47Q5BYV7H");
     };
 
     document.head.appendChild(script);
 
-    return () => {
-    };
+    return () => {};
   }, []);
 
   return (
@@ -44,12 +41,13 @@ export default function Home() {
       <div className="container mt-24 mx-auto px-12 py-4">
         <HeroSection />
         {/*         <AchievementsSection />
- */}
+         */}
         <AboutSection />
         <Projetcs />
         <EmailSection />
       </div>
       <Footer />
+      <Analytics />
     </main>
   );
 }
