@@ -1,0 +1,82 @@
+[
+     {
+    "id": 1,
+    "title": "KTCCAR",
+    "description": "Création d’un site fullstack dédié aux passionnés d’automobile. Développement du front-end avec React.js et du back-end avec Nest.js, incluant la mise en place d’un espace membre, de fonctionnalités interactives et d’un design moderne responsive.",
+    "image": "/assets/ktccar.png",
+    "tags": ["All", "Web"],
+    "urlProjet": "https://github.com/emrektc70/ktccar_backoffice",
+    "previewUrl": "https://ktccar.vercel.app/",
+    "date": "2023"
+  },
+  {
+    "id": 2,
+    "title": "Orgavita",
+    "description": "Maintenance et amélioration du site Orgavita au sein d’Orgamy. Intégration de nouvelles fonctionnalités, correction de bugs et optimisation de l’interface afin d’améliorer l’expérience utilisateur des praticiens et des patients.",
+    "image": "/assets/orgavita.png",
+    "tags": ["All", "Web"],
+    "urlProjet": "",
+    "previewUrl": "https://praticien.orgavita.fr/register",
+    "date": "2023"
+  },
+  {
+    "id": 3,
+    "title": "ToshoBox",
+    "description": "Contribution au développement de ToshoBox, une plateforme de vente de mangas en ligne. Intégration du front-end à partir des maquettes UI et mise en place des composants dynamiques pour une expérience utilisateur fluide.",
+    "image": "/assets/toshoBox.png",
+    "tags": ["All", "Web"],
+    "urlProjet": "",
+    "previewUrl": "https://box.tosho.fr/",
+    "date": "2023"
+  },
+  {
+    "id": 4,
+    "title": "KTCCAR API",
+    "description": "Développement du backend de KTCCAR avec Nest.js. Conception d’une architecture modulaire, mise en place de la gestion des utilisateurs et intégration d’API sécurisées pour la communication front/back.",
+    "image": "/assets/info1.jpg",
+    "tags": ["All"],
+    "urlProjet": "",
+    "previewUrl": "",
+    "date": "2023"
+  },
+  {
+    "id": 6,
+    "title": "Tom",
+    "description": "Participation au développement de l’application Tom en tant que développeur Front-End au sein de Studiosystems. J’ai contribué à l’évolution des fonctionnalités, à l’optimisation des performances et à la modernisation de l’interface utilisateur pour offrir une expérience fluide et réactive.",
+    "image": "/assets/tom.png",
+    "tags": ["All", "Web"],
+    "urlProjet": "",
+    "previewUrl": "https://www.studiosystems.fr/tom",
+    "date": "2025"
+  },
+  {
+    "id": 7,
+    "title": "Tom-mobile",
+    "description": "Développement de l’application mobile Tom avec React Native. J’ai implémenté les principales fonctionnalités issues de la version web et conçu des interfaces responsives et performantes pour Android et iOS, en veillant à une excellente expérience utilisateur.",
+    "image": "/assets/tom-mobile.png",
+    "tags": ["All", "Mobile"],
+    "urlProjet": "",
+    "previewUrl": "https://apps.apple.com/mu/app/tom/id1626télé981821",
+    "date": "2025"
+  },
+  {
+    "id": 8,
+    "title": "La Lampe d'Aladin & co",
+    "description": "Participation au développement de l’application mobile La Lampe d’Aladin & co avec React Native. J’ai contribué à la création d’interfaces modernes et intuitives et à l’intégration des fonctionnalités clés, tout en assurant une bonne performance sur les deux plateformes mobiles.",
+    "image": "/assets/aladin.png",
+    "tags": ["All", "Mobile"],
+    "urlProjet": "",
+    "previewUrl": "https://apps.apple.com/mu/app/tom/id1626981821",
+    "date": "2025"
+  },
+  {
+    "id": 9,
+    "title": "Avisplaie",
+    "description": "Conception et intégration d’interfaces mobiles pour Avisplaie avec React Native. J’ai assuré la mise en place des fonctionnalités principales et optimisé la fluidité et la performance de l’application sur Android et iOS.",
+    "image": "/assets/avisplaie.png",
+    "tags": ["All", "Mobile"],
+    "urlProjet": "",
+    "previewUrl": "https://apps.apple.com/mu/app/tom/id1626981821",
+    "date": "2025"
+  }
+]
